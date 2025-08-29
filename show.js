@@ -766,38 +766,38 @@ function renderShow(show) {
        <img src="${show.image}" class="main-img img-fluid rounded shadow-sm mt-4">
       </div>
       <div class="col-12 col-md-6">
-       <h1 class="show-title mt-3">${show.title}</h1>
+       <h3 class="show-title mt-3">${show.title}</h3>
       <button type="button" class="btn-heart" data-show-id="${show.id}" id="heart-${show.id}">
         <i class="bi bi-heart"></i>
         <i class="bi bi-heart-fill"></i>
       </button>
-       <h1 class="mt-0 mb-0">Genres</h1>
+       <h2 class="mt-0 mb-0">Genres</h2>
        <p>${show.genres}</p>
-       <h1 class="mt-3 mb-0">Episodes/Duration</h1>
+       <h2 class="mt-3 mb-0">Episodes/Duration</h2>
        <p>${show.episodes}</p>
-       <h1 class="mt-3 mb-0">Casts</h1>
+       <h2 class="mt-3 mb-0">Casts</h2>
        <p>${show.casts}</p>
-       <h1 class="mt-3 mb-0">Synopsis</h1>
+       <h2 class="mt-3 mb-0">Synopsis</h2>
        <p>${show.synopsis}</p>
       </div>
     </div>
-    <div class="row custom-row border border-2 rounded">
+    <div class="row custom-row border border-2 rounded mt-5">
       <div class="col-12 col-md-6 mt-3">
-      <h1>Review</h1>
+      <h2>Review</h2>
       <div class="text-center">
       <img src="${show.reaction}" class="reaction-img rounded shadow-sm mt-0">
       <p class="mt-3">${show.review}</p>
       </div>
       </div>
       <div class="col-12 col-md-6 mt-3 px-3">
-      <h1>Ratings</h1>
-      <h1 class="mt-3 mb-0 fs-2">Plot</h1>
+      <h2>Ratings</h2>
+      <h2 class="mt-3 mb-0 fs-2">Plot</h2>
        <p>${show.plot}</p>
-       <h1 class="mt-3 mb-0 fs-2">Cinematography</h1>
+       <h2 class="mt-3 mb-0 fs-2">Cinematography</h2>
        <p>${show.cinematography}</p>
-       <h1 class="mt-3 mb-0 fs-2">Emotional Impact</h1>
+       <h2 class="mt-3 mb-0 fs-2">Emotional Impact</h2>
        <p>${show.emotional_impact}</p>
-       <h1 class="mt-3 mb-0 fs-2">Soundtrack</h1>
+       <h2 class="mt-3 mb-0 fs-2">Soundtrack</h2>
        <p>${show.soundtrack}</p>
       </div>
     </div>
